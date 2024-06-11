@@ -1,0 +1,31 @@
+header {
+    height: 95vh;
+    padding: 1rem;
+
+    clip-path: xywh(0 0 100% 100% round 17px);
+
+    background-image: url("/assets/listia_rastenie_zelenyj_1.jpg");
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;      
+    background-size: cover;
+}
+
+header ul {
+    display: flex;
+    gap: 4px;
+    list-style: none;
+
+    color: white;
+}
+
+#site-navigation {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div {
+        display: flex;
+    }
+}

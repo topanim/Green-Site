@@ -1,0 +1,36 @@
+#header-title {
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding:  50px 20%;
+    
+}
+
+#header-title h1, h3, p {
+    margin: 8px;
+}
+
+#header-title h1 {
+    font-size: 15rem;
+    font-weight: bold;
+}
+
+#header-title h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#header-title p {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+#header-title div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
