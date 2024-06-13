@@ -1,17 +1,18 @@
 #header-plants {
     display: flex;
-
-    /* align-items: stretch; */
-
-    /* align-self: flex-start;
-    justify-self: flex-end; */
+    gap: 8px;
 }
 
 #header-plants div {
     /* From https://css.glass */
-    padding: 8px;
     display: flex;
     flex-direction: column;
+
+    height: 15vh;
+    width: min-content;
+    padding: 1vw;
+
+    color: white;
 
 
     background: rgba(255, 255, 255, 0.25);
@@ -22,7 +23,28 @@
     border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
-#header-plants div:first-of-type{
-    width: 100%;
+#header-plants div:first-of-type h4{
+    font-size: 4vh;
+    font-weight: bolder;
 
+    margin-right: 10px;
+}
+
+#header-plants div:first-of-type p{
+    font-size: 2vh;
+    font-weight: lighter;
+}
+
+#header-plants div:last-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-plants img {
+    margin-bottom: -2.5vh;
+    height: 7vh;
+    width: 7vh;
+    clip-path: circle(40%);
 }

@@ -11,14 +11,15 @@
     
 }
 
-#header-title h1, h3, p {
-    margin: 8px;
+#header-title h1, h4, p {
+    margin: 0;
+
 }
 
 #header-title h1 {
     user-select: none;
 
-    font-size: 20vw;
+    font-size: 18vw;
     font-weight: bold;
     line-height: 20vw;
     min-height: 20vw;
@@ -26,7 +27,7 @@
 }
 
 #header-title h4 {
-    font-size: 2rem;
+    font-size: 4vw;
     font-weight: bold;
 }
 
